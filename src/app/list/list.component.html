@@ -1,0 +1,7 @@
+<h1> BREWERIES </h1>
+
+<ul *ngIf="brews">
+  <li *ngFor="let brew of brews">
+      <p class="name">{{brew.name}}</p>
+  </li>
+</ul>
